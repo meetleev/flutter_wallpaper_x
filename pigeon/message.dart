@@ -7,7 +7,7 @@ import 'package:pigeon/pigeon.dart';
   // cppHeaderOut: 'windows/runner/messages.g.h',
   // cppSourceOut: 'windows/runner/messages.g.cpp',
   kotlinOut:
-  'android/src/main/kotlin/com/meetleev/wallpaper_x/pigeon/Messages.g.kt',
+      'android/src/main/kotlin/com/meetleev/wallpaper_x/pigeon/Messages.g.kt',
   // kotlinOptions: KotlinOptions(),
   // javaOut: 'android/src/main/java/com/meetleev/plugins/Pigeon.java',
   // javaOptions: JavaOptions(),
@@ -20,11 +20,9 @@ import 'package:pigeon/pigeon.dart';
   // copyrightHeader: 'pigeons/copyright.txt',
   // dartPackageName: 'pigeon_example_package',
 ))
-
-
-
 @HostApi()
 abstract class WallpaperXInterface {
+  /// set live wallpaper
   @async
   bool setLiveWallpaper(String filePath);
 }
