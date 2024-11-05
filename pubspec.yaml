@@ -1,6 +1,6 @@
 name: wallpaper_x
 description: "Set Android wallpapers asynchronously, including video live wallpapers, for a seamless, non-blocking app experience."
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/meetleev
 repository: https://github.com/meetleev/flutter_wallpaper_x
 topics:
